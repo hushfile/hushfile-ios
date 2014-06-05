@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E0DC4AD11940865F00A49CC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC4AD01940865F00A49CC9 /* AppDelegate.swift */; };
-		E0DC4AD31940865F00A49CC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC4AD21940865F00A49CC9 /* ViewController.swift */; };
+		E0DC4AD31940865F00A49CC9 /* FileSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC4AD21940865F00A49CC9 /* FileSelectorViewController.swift */; };
 		E0DC4AD61940865F00A49CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0DC4AD41940865F00A49CC9 /* Main.storyboard */; };
 		E0DC4AD81940865F00A49CC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0DC4AD71940865F00A49CC9 /* Images.xcassets */; };
 		E0DC4AE41940865F00A49CC9 /* HushfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC4AE31940865F00A49CC9 /* HushfileTests.swift */; };
@@ -28,7 +28,7 @@
 		E0DC4ACB1940865F00A49CC9 /* Hushfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hushfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0DC4ACF1940865F00A49CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0DC4AD01940865F00A49CC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0DC4AD21940865F00A49CC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0DC4AD21940865F00A49CC9 /* FileSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSelectorViewController.swift; sourceTree = "<group>"; };
 		E0DC4AD51940865F00A49CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0DC4AD71940865F00A49CC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E0DC4ADD1940865F00A49CC9 /* HushfileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HushfileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				E0DC4AD01940865F00A49CC9 /* AppDelegate.swift */,
-				E0DC4AD21940865F00A49CC9 /* ViewController.swift */,
+				E0DC4AD21940865F00A49CC9 /* FileSelectorViewController.swift */,
 				E0DC4AD41940865F00A49CC9 /* Main.storyboard */,
 				E0DC4AD71940865F00A49CC9 /* Images.xcassets */,
 				E0DC4ACE1940865F00A49CC9 /* Supporting Files */,
@@ -208,7 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0DC4AD31940865F00A49CC9 /* ViewController.swift in Sources */,
+				E0DC4AD31940865F00A49CC9 /* FileSelectorViewController.swift in Sources */,
 				E0DC4AD11940865F00A49CC9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
